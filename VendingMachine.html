@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Koganov PP-2609 JS Examen</title>   
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>	
+</head>
+<body>
+
+<div class="main">
+<form class="addmoney">
+<span>Insert a banknote:</span>
+    <select id="select">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="5">5</option>
+    <option value="10">10</option>    
+   </select>  
+   <input id = "addMoneyButton" type="button" class="button1" value="add money">
+   <p><input id = "moneyUser" type="text" class="nomoney"  value="no money"></p>
+</form>
+
+<form class="choiceOfDrink">
+<p>Choice of a drink:</p>
+<div id = "getRadio">
+  <p><input type="radio" name="drink" value="water">Water 1$</p>
+  <p><input type="radio" name="drink" value="tea">Tea 3$</p>
+  <p><input type="radio" name="drink" value="coffee"checked>Coffee 5$</p>  
+  <p><input type="radio" name="drink" value="cappuccino ">Cappuccino 10$</p>
+</div>
+</form>
+
+<form class="getDrink">
+<p><input id = "getButton" type="button" class="button2" value="get drink and money"></p>
+<p><input id = "noOddMoney" type="text" class="noOddMoney"  value="no odd money"></p>
+<p><input id = "noDrink" type="text" class="noDrink"  value="no drink"></p>      
+</form>
+
+<form class="clear">
+<input id = "clear" type="button" class="button3" value="clear">
+</form>
+
+</div>	
+</body>
+
+<script type="text/javascript" src="script.js"></script>
+</html>

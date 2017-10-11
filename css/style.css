@@ -1,0 +1,72 @@
+html,body{
+	height: 100%;
+}
+
+.main{
+	position: absolute;
+	border: solid 10px;
+	background: #FFCC01;
+	text-align: center;
+	width: 25%;	
+	float:left;
+	left:40%;
+	top:20%;
+}
+
+.addmoney{
+	margin:2%;
+	padding:2%;
+	padding-bottom: 0;
+}
+
+.nomoney{
+	width: 90%;
+}
+
+.choiceOfDrink>p{
+font-weight: bold;
+font-size: 20px;
+}	
+
+.choiceOfDrink>div{
+text-align: left;
+margin-left:  10%;
+}	
+
+.choiceOfDrink{
+background: #993233;
+	margin:2%;
+	padding:0.25%;
+}
+
+.getDrink{
+	background: #990100;
+	margin:2%;
+	padding:0.25%;
+}
+
+.clear{
+	background: #993331;
+	margin:2%;
+	padding:0.25%;	
+}
+
+/*.button1{
+width: 30%;	
+}*/
+
+/*.button2{
+width: 60%;	
+}
+
+.button3{
+width: 20%;	
+}*/
+
+.noOddMoney{
+	width: 90%;
+}
+
+.noDrink{
+	width: 90%;
+}
